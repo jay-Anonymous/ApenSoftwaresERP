@@ -1,0 +1,314 @@
+<div class="container">
+  <!-- begin nav -->
+  <header>
+    <div class="inner">
+      <nav id="nav" class="navbar navbar-default navbar-static-top">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+
+          </div>
+          <div id="navbarCollapse" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+              <li class="page-scroll">
+                <a href="#about">About</a>
+              </li>
+              <li class="page-scroll">
+                <a href="#portfolio">Projects</a>
+              </li>
+              <li class="page-scroll">
+                <a href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- end nav -->
+
+      <!-- Logo and Title -->
+      <section id="top" class="page-title">
+        <img src="<%= asset_path 'wf-logo-small-white.png' %>" class="img-responsive floating" , id="startchange" alt="AR logo">
+        <h2>ピラス・リカルド</h2>
+        <h1>Ricardo Piras</h1>
+        <h4>Creative Fullstack Web Developer</h4>
+      </section>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="content">
+
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio" class="projects">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="title">Projects 👨🏻‍💻</h2>
+
+          </div>
+        </div>
+
+        <div class="row">
+
+          <!-- Destination Matcher app -->
+          <div class="col-sm-4 portfolio-item">
+            <div class="item-wrap">
+              <div class="caption">
+                <div class="caption-content">
+                  <p>Destination Matcher: Find cheapest travel deals according to your budget!</p><br>
+                  <a href="www.destination-matcher.com/" class="portfolio-link">
+                    <i class="fa fa-search-plus fa-3x"></i>
+                  </a>
+                </div>
+              </div>
+              <img src="<%= asset_path 'destination-matcher.jpg' %>" class="img-responsive" alt="Destination Matcher">
+            </div>
+          </div>
+
+          <!-- WeJam app -->
+          <div class="col-sm-4 portfolio-item">
+
+            <div class="item-wrap">
+              <div class="caption">
+                <div class="caption-content">
+                  <p>WeJam: Wanna join a band? Is your band looking for musicians? WeJam!</p>
+                  <br>
+                  <a href="https://wejam.herokuapp.com/" class="portfolio-link">
+                    <i class="fa fa-search-plus fa-3x"></i>
+                  </a>
+                </div>
+              </div>
+              <%#= link_to image_tag('single-page-portfolio-min.png'), class: 'img-responsive', alt: 'Single Page Portfolio' %>
+              <img src="<%= asset_path 'wejam.jpg' %>" class="img-responsive" alt="WeJam">
+            </div>
+          </div>
+
+          <!-- Cocktail Aspirante app-->
+          <div class="col-sm-4 portfolio-item">
+            <%# link_to 'http://thawing-fortress-18548.herokuapp.com/', class: 'portfolio-link' %>
+            <div class="item-wrap">
+              <div class="caption">
+                <div class="caption-content">
+                  <p>Cocktail Aspirante: Learn and share personal cocktails recipes!</p>
+                  <br>
+                  <a href="cocktail-aspirante.herokuapp.com" class="portfolio-link">
+                    <i class="fa fa-search-plus fa-3x"></i>
+                  </a>
+                </div>
+              </div>
+              <%#= link_to image_tag('devmatch-min.png'), class: 'img-responsive', alt: 'DevMatch' %>
+              <img src="<%= asset_path 'cocktail-aspirante.jpg' %>" class="img-responsive" alt="Cocktail Aspirante">
+            </div>
+          </div>
+
+          <!-- Mox Moda app -->
+          <div class="col-sm-4 portfolio-item">
+            <div class="item-wrap">
+              <div class="caption">
+                <div class="caption-content">
+                  <p>Mox Moda: B2B marked place for fashion designers seeking buyers</p>
+                </div>
+              </div>
+              <img src="<%= asset_path 'mox-moda.jpg' %>" class="img-responsive" alt="Mox Moda">
+            </div>
+          </div>
+
+        </div>
+
+</section>
+
+<section id="about" class="intro">
+  <div class="intro-inner">
+    <div class="row">
+      <div class="col-md-12">
+        <h2 class="title">About 👨🏻‍💼</h2>
+
+      </div>
+      <div class="row intro-cards">
+        <div class="col-xs-12 col-sm-6">
+          <img src="<%= asset_path 'portrait-min.jpg' %>" class="img-responsive portrait" alt="Me">
+        </div>
+
+        <div class="col-xs-12 col-sm-6">
+          <div class="flip-container">
+            <div class="flipper">
+              <div class="front">
+                  <p>Hi there! <br>
+                    My name is Ricardo, and I'm a fullstack web developer. I previously worked for 7 years in the Multimedia industry as Project Manager, and through this fruitful career, I discovered programming.<br><br>Colleagues who were building amazing apps gave me this curiosity for coding, that soon enough, became a passion.<br><br>So in October 2018, I decided to take a coding bootcamp at <a href="https://www.lewagon.com/tokyo">Le Wagon</a> in Tokyo, study anything and everything about web development, and begin a career in Programming.<br>
+                    Along with my background in MBA, BA, Arts and few introduction courses on AI and Big Data, I use all my adquired skills to enjoy developing creative and effective open-source web projects on spare-time.<br>Please check them out!:)
+                </p>
+              </p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+</section>
+
+  <section id="portfolio" class="projects">
+      <div class="projects-container my-container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+        <h2 class="title">Achievements 🏆</h2>
+        <h4 style="color:black">Hover for details.</h4>
+        <br>
+      </div>
+      <div class="container my-container">
+        <div class="projects-row">
+
+          <div class="col-xs-6 col-sm-4 text-center">
+            <div class="achievement-circle">
+              <div class="box3d text-after">
+                Native:🇧🇷🇫🇷🇬🇧 Fluent: 🇩🇪🇪🇸🇯🇵
+              </div>
+              <div class="box3d text-before">
+                Fluent in 6 languages
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xs-6 col-sm-4 text-center">
+            <div class="achievement-circle">
+              <div class="box3d text-after">
+                   Completed Le Wagon Tokyo (batch #187)
+                </div>
+                <div class="box3d text-before">
+                   Complete Fullstack Programmer
+                </div>
+            </div>
+          </div>
+
+          <div class="col-xs-6 col-sm-4 text-center">
+            <div class="achievement-circle">
+              <div class="box3d text-after">
+                B.A Temple U Japan, MBA GLOBIS U Japan
+              </div>
+              <div class="box3d text-before">
+                Business background
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xs-6 col-sm-4 text-center">
+            <div class="achievement-circle">
+              <div class="box3d text-after">
+                Healthcare smartphone app, Multilingual Digital Magazines
+              </div>
+              <div class="box3d text-before">
+                Managed various media projects from scratch
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xs-6 col-sm-4 text-center">
+            <div class="achievement-circle">
+              <div class="box3d text-after">
+                Used English, Japanese, and Portuguese professionally
+              </div>
+              <div class="box3d text-before">
+                Worked with multicultural teams
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xs-6 col-sm-4 text-center">
+            <div class="achievement-circle">
+              <div class="box3d text-after">
+                  Lived in Switzerland, Brazil, Colombia, Germany, Belgium, Japan
+                </div>
+                <div class="box3d text-before">
+                  Broad international background
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="intro">
+  <div class="intro-inner">
+    <div class="row">
+      <div class="col-md-12">
+        <h2 class="title">Hobbies ⛹️‍</h2>
+      </div>
+      <div class="container my-container" text-center>
+        <div class="row intro-cards">
+          <br>
+          <div class="col-xs-12 col-sm-5 text-center">
+            <div class="photo-hobby">
+              <h3>Photography</h3>
+              <a href="https://www.ricardopiras.com"><img src="<%= asset_path 'photo2.png' %>" class="hobby-image" alt="RicardoPiras.com"></a>
+              <h4>My photos appeared in 17 exhibits so far.
+                <br>Inspirations: Helmut Newton and Sebastião Salgado.</h4>
+            </div>
+          </div>
+
+          <div class="col-xs-12 col-sm-6 text-center">
+            <div class="photo-hobby">
+              <h3>Capoeira</h3>
+              <img src="<%= asset_path 'capoeira.png' %>" class="hobby-image" alt="Capoeira">
+              <h4>2 years practicioner!<br>Capoeira combines gymnastics with dance, martial arts and culture.</h4>
+            </div>
+
+            <div class="col-xs-12 col-sm-6 text-center">
+            <div class="photo-hobby">
+              <h3>Swimming</h3>
+              <img src="<%= asset_path 'swimming.png' %>" class="swimmer-image" alt="Swimming">
+              <h4>No better sport to stay fit and healthy plus it helps me stay energetic 💪</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+</main>
+<!-- end main -->
+
+<!-- contact and footer -->
+<footer>
+  <section id="contact" class="social">
+    <div class="row">
+      <div class="col-md-12">
+        <h2 class="title">Contact 📬</h2>
+
+        <ul class="social-buttons">
+          <li>
+            <a href="mailto:ricpiras@gmail.com">
+              <i class="fa fa-envelope"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/Ricardo875">
+              <i class="fa fa-github"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/ricardopiras/">
+              <i class="fa fa-linkedin"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <div class="copyright">&copy; 2019</div>
+</footer>
+</div>
+
+<!-- Scroll to top button -->
+<div class="scroll-top page-scroll hidden-lg">
+  <a href="#top">
+    <i class="fa fa-chevron-up"></i>
+  </a>
+</div>
