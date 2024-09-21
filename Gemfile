@@ -9,7 +9,7 @@ end
 gem 'rails', '~> 5.0.2'
 
 # Use Puma as the app server
-gem 'puma', '~> 3.0'
+gem 'puma', '~> 5.6', '>= 5.6.9'
 # Use Hirb for viewing database
 gem 'hirb'
 # Use Bootstrap for CSS
